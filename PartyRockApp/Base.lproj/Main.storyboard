@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -78,51 +78,47 @@
                                     <constraint firstItem="dIX-n6-UGI" firstAttribute="leading" secondItem="jeH-Lb-Aa1" secondAttribute="leading" constant="8" id="OhB-Vd-nq5"/>
                                     <constraint firstAttribute="trailing" secondItem="dIX-n6-UGI" secondAttribute="trailing" constant="8" id="pGJ-gs-0v8"/>
                                     <constraint firstItem="dIX-n6-UGI" firstAttribute="top" secondItem="jeH-Lb-Aa1" secondAttribute="top" constant="2" id="rak-Lt-5w3"/>
-                                    <constraint firstItem="dIX-n6-UGI" firstAttribute="centerX" secondItem="jeH-Lb-Aa1" secondAttribute="centerX" id="w2R-65-4QV"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="86" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KcE-yX-lyt">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="85" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KcE-yX-lyt">
                                 <rect key="frame" x="0.0" y="211" width="375" height="456"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" rowHeight="86" id="lad-w0-b10" customClass="PartyCell" customModule="PartyRockApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="86"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" id="t7i-il-BSV" customClass="PartyCell" customModule="PartyRockApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="85"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lad-w0-b10" id="onn-0Y-3Xj" customClass="PartyCell" customModule="PartyRockApp" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="85.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="t7i-il-BSV" id="OeT-VA-BAr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="84.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="partybanner" translatesAutoresizingMaskIntoConstraints="NO" id="VzI-dc-UF2">
-                                                    <rect key="frame" x="16" y="8" width="68" height="68"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="partybanner" translatesAutoresizingMaskIntoConstraints="NO" id="UZ9-Oh-knL">
+                                                    <rect key="frame" x="8" y="8" width="68" height="68"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="68" id="LWJ-6P-HSv"/>
-                                                        <constraint firstAttribute="height" constant="68" id="atx-1y-EeX"/>
+                                                        <constraint firstAttribute="width" constant="68" id="aBP-aD-faX"/>
+                                                        <constraint firstAttribute="height" constant="68" id="rxn-Yo-xdo"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where the sun goes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ivk-F2-wGi">
-                                                    <rect key="frame" x="92" y="19.5" width="283" height="47"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where the sun goes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DlI-S9-867">
+                                                    <rect key="frame" x="84" y="8.5" width="283" height="68"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="47" id="GXu-IE-XLS"/>
+                                                        <constraint firstAttribute="height" constant="68" id="L0S-DK-kZ3"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="30"/>
+                                                    <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="32"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
-                                                <constraint firstItem="Ivk-F2-wGi" firstAttribute="centerY" secondItem="onn-0Y-3Xj" secondAttribute="centerY" id="17X-fl-EFJ"/>
-                                                <constraint firstItem="Ivk-F2-wGi" firstAttribute="leading" secondItem="VzI-dc-UF2" secondAttribute="trailing" constant="8" id="2th-Nq-WNV"/>
-                                                <constraint firstItem="VzI-dc-UF2" firstAttribute="leading" secondItem="onn-0Y-3Xj" secondAttribute="leadingMargin" constant="8" id="CmD-qv-NW3"/>
-                                                <constraint firstItem="Ivk-F2-wGi" firstAttribute="trailing" secondItem="onn-0Y-3Xj" secondAttribute="trailingMargin" constant="8" id="TRi-X9-mmO"/>
-                                                <constraint firstItem="VzI-dc-UF2" firstAttribute="centerY" secondItem="onn-0Y-3Xj" secondAttribute="centerY" id="xcb-Fn-Yec"/>
+                                                <constraint firstItem="UZ9-Oh-knL" firstAttribute="centerY" secondItem="OeT-VA-BAr" secondAttribute="centerY" id="9KX-7x-i9e"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="DlI-S9-867" secondAttribute="trailing" id="enC-KR-Rat"/>
+                                                <constraint firstItem="DlI-S9-867" firstAttribute="leading" secondItem="UZ9-Oh-knL" secondAttribute="trailing" constant="8" id="gPS-GR-y0m"/>
+                                                <constraint firstItem="UZ9-Oh-knL" firstAttribute="leading" secondItem="OeT-VA-BAr" secondAttribute="leadingMargin" id="tOT-qc-0nF"/>
+                                                <constraint firstItem="DlI-S9-867" firstAttribute="centerY" secondItem="OeT-VA-BAr" secondAttribute="centerY" id="xB0-SC-6Dv"/>
                                             </constraints>
-                                            <connections>
-                                                <outlet property="videoPreviewImage" destination="VzI-dc-UF2" id="U7o-SV-iu0"/>
-                                            </connections>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="videoTitle" destination="Ivk-F2-wGi" id="eHN-NC-K2f"/>
+                                            <outlet property="videoPreviewImage" destination="UZ9-Oh-knL" id="qhk-0p-ZND"/>
+                                            <outlet property="videoTitle" destination="DlI-S9-867" id="Vvf-qX-r2r"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
